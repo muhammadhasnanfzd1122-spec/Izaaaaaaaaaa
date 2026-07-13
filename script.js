@@ -3,8 +3,8 @@
 // =======================
 
 const photos = [
-    "photo1.jpg",
-    "photo2.jpg"
+    "Photo1.jpg",
+    "Photo2.jpg"
 ];
 
 let currentPhoto = 0;
