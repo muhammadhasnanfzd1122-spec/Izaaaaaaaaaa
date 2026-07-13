@@ -12,11 +12,11 @@ let currentPhoto = 0;
 setInterval(() => {
     currentPhoto++;
 
-    if (currentPhoto >= photos.length) {
+    if (currentPhoto >= Photos.length) {
         currentPhoto = 0;
     }
 
-    document.getElementById("slide").src = photos[currentPhoto];
+    document.getElementById("slide").src = Photos[currentPhoto];
 
 }, 3000);
 
