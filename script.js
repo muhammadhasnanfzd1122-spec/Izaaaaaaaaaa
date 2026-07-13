@@ -2,7 +2,7 @@
 // PHOTO SLIDER
 // =======================
 
-const photos = [
+const Photos = [
     "Photo1.jpg",
     "Photo2.jpg"
 ];
