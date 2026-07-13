@@ -7,13 +7,13 @@ const Photos = [
     "Photo2.jpg"
 ];
 
-let currentPhoto = 0;
+let currentphoto = 0;
 
 setInterval(() => {
-    currentPhoto++;
+    currentphoto++;
 
-    if (currentPhoto >= Photos.length) {
-        currentPhoto = 0;
+    if (currentphoto >= photos.length) {
+        currentphoto = 0;
     }
 
     document.getElementById("slide").src = Photos[currentPhoto];
