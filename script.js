@@ -3,8 +3,8 @@
 // =======================
 
 const Photos = [
-    "photo1.jpg",
-    "photo2.jpg"
+    "Photo1.jpg",
+    "Photo2.jpg"
 ];
 
 let currentPhoto = 0;
@@ -16,7 +16,7 @@ setInterval(() => {
         currentPhoto = 0;
     }
 
-    document.getElementById("slide").src = photos[currentPhoto];
+    document.getElementById("slide").src = Photos[currentPhoto];
 
 }, 3000);
 
